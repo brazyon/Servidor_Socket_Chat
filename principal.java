@@ -8,7 +8,7 @@ public class principal {
 
     public static void main(String args[]) {
         try {
-            Socket servidor = new Socket("10.150.20.88", 4444);//endereco e porta
+            Socket servidor = new Socket("localhost", 4444);//endereco e porta
             PrintWriter out = new PrintWriter(
                     servidor.getOutputStream(), true);
             String mensagem = "";
